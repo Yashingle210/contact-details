@@ -1,0 +1,61 @@
+.btn2{
+    margin: 8px;
+    padding: 7px 50px;
+    background-color: #5893ff;
+    border: none;
+    border-radius:4px;
+    color: white;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.btn2:hover
+{
+    background-color: #5893ff;
+}
+.ibody{
+    width: 400px;
+    height: 600px;
+    margin: auto;
+}
+.btn2 a{
+    text-decoration: none;
+    color: white;
+    font-family:'Times New Roman', Times, serif ;
+}
+hr
+{
+    height: auto;
+    background-color:grey;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.button{
+    border:2px #86d4f8;
+    background-color: white;
+    padding: auto;
+    text-align: center;
+}
+h1{
+    color: rgb(37, 168, 255); 
+    text-align: center; 
+}
+.names{
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+   width: 50%;
+   text-align: center;
+}
+#style{
+    text-decoration: none;
+}
+.btn2:hover {
+background-color: #315eb3;
+}
+h2{
+    color: #5893ff;
+    margin-left:10px;
+}
+

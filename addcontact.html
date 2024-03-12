@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addcontact</title>
+    <link rel="stylesheet" href="css/addcontact.css">
+</head>
+<body>
+    <div class="contain">
+    <form action="printValue()">
+        <div class="btn">
+        <a href="/addcontact.html"><button type="button">Cancel</button></a>
+        <a href="/addcontact.html"><button type="button" value="submit" onclick="insertValue()">Save</button></a><br>
+    </div>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" placeholder="First Name" name="fname"><br>
+
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" placeholder="Last Name" name="lname"><br>
+
+        <label for="pnumber">Phone Number</label><br>
+        <input type="text" id="pnumber" placeholder="Phone Number" maxlength="10"><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Email" email="email"><br>
+
+    </form>
+</div>
+    <script src="/javascript/main.js"></script>
+</body>
+
+</html>

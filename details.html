@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="showDetails()">
+    <div class="container-1">
+            <div class="topbtn">
+        <a href="index.html"><button class="contact">Contact</button></a>
+            <button class="edit">Edit</button>
+            </div>
+
+        <div class="info">
+        <div class="icon1">
+            <h2 id="fullName"></h2>
+            <p>Phone</p>
+            <i class="fa fa-mobile-phone" id="phone" style="font-size:36px;color:rgb(41, 108, 231)"></i>
+            <p id="phoneNo"></p>
+        </div>
+
+        <div class="icon2">
+            <p>Email</p>
+            <i class="fa fa-envelope" id="email1" style="font-size:28px;color:rgb(41, 108, 231)"></i>
+            <p id="email"></p>
+        </div>
+        </div>
+
+        <div class="delete-btn">
+            <a href="/index.html"><button class="delete" onclick="deleteDetails()">Delete</button></a>
+        </div>
+    </div>
+    <script src="/javascript/main.js"></script>
+</body>
+</html>
